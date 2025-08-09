@@ -1,0 +1,4 @@
+document.addEventListener('scroll', () => {
+    const title = document.querySelector('.title');
+    title.style.transform = `translateY(${window.scrollY * 0.5}px)`;
+});
