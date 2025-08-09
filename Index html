@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rudra Writings</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rudra Writings - Anime Superhero Stories</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="overlay"></div>
-        <h1 class="title">Rudra Writings</h1>
-        <p class="subtitle">Where Shadows Speak</p>
-    </header>
 
-    <section class="content">
-        <h2>About Me</h2>
-        <p>I am a storyteller who blends myth, anime, and cinematic worlds to create unforgettable journeys.</p>
-    </section>
+<header>
+  <div class="logo" aria-label="Rudra Writings Logo"></div>
+  <div class="title">Rudra Writings</div>
+</header>
 
-    <section class="content dark">
-        <h2>Projects</h2>
-        <p>Current focus: Shadowborn Anime, blending cinematic camera work with anime-inspired art.</p>
-    </section>
+<div class="banner" role="img" aria-label="Dark Superhero Anime Banner"></div>
 
-    <footer>
-        <p>&copy; 2025 Rudra Writings | All Rights Reserved</p>
-    </footer>
+<section>
+  <h2 class="fade-in">Welcome to Rudra Writings</h2>
+  <p class="fade-in">Dive into the world of anime superheroes and mysterious tales. Explore original stories filled with thrilling adventures, superpowers, and dark secrets.</p>
+</section>
 
-    <script src="script.js"></script>
+<section>
+  <h2 class="fade-in">Featured Stories</h2>
+  <p class="fade-in"><strong>Shadow Flame:</strong> A young hero discovers a blazing power within to fight darkness engulfing the city.</p>
+  <p class="fade-in"><strong>The Mystic Ring:</strong> An ancient artifact unlocks supernatural abilities with great responsibility.</p>
+</section>
+
+<section>
+  <h2 class="fade-in">About Me</h2>
+  <p class="fade-in">I am a passionate writer dedicated to creating gripping anime-inspired superhero stories. Join me on this journey and support my freelance work on Fiverr.</p>
+</section>
+
+<footer>
+  &copy; 2025 Rudra Writings. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
