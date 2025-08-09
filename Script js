@@ -1,4 +1,15 @@
-document.addEventListener('scroll', () => {
-    const title = document.querySelector('.title');
-    title.style.transform = `translateY(${window.scrollY * 0.5}px)`;
-});
+// Scroll reveal effect for fade-in elements
+function revealOnScroll() {
+  const elements = document.querySelectorAll('.fade-in');
+  const windowHeight = window.innerHeight;
+  elements.forEach(el => {
+    const elementTop = el.getBoundingClientRect().top;
+    if (elementTop < windowHeight - 100) {
+      el.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
+
